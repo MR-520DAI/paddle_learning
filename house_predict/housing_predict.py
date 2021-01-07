@@ -27,7 +27,7 @@ def load_data():
 
     # 将原数据集拆分成训练集和测试集
     # 这里使用80%的数据做训练，20%的数据做测试
-    # 测试集和训练集必须是没有交集的
+    # 测试集和训练集必须是没有交集的 
     ratio = 0.8
     offset = int(data.shape[0] * ratio)
     training_data = data[:offset]
